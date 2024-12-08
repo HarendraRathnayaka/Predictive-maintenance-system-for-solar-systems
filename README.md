@@ -9,8 +9,8 @@ The Predictive Maintenance System for Solar PV Systems improves reliability and 
 ## Team Members
 - Navindi R.L.S (IT21166174)
 - Nayanamudu R.M.H (IT21199080)
-- Perera M.A.V.D (IT21322662)
 - Perera U.V.S.A (IT21164958)
+- Perera M.A.V.D (IT21322662)
 
 ### Supervisors
 - Ms. Sanjeevi Chandrasiri (Supervisor)
@@ -43,10 +43,10 @@ The Predictive Maintenance System for Solar PV Systems improves reliability and 
   This system leverages real-time IoT data and historical maintenance records to predict and analyze faults in solar PV panels. It integrates environmental and operational data, using machine learning models to enhance fault detection accuracy while considering varying conditions. Advanced preprocessing ensures scalable, reliable data storage and retrieval. AI models with improved explainability offer transparent predictions, identifying root causes via anomaly detection and integrated data insights. A customizable, user-friendly interface displays real-time visualizations, analysis results, and automated reports. Continuous learning mechanisms refine fault predictions and analysis over time, enabling proactive, targeted maintenance to optimize panel performance and reduce operational downtime.
 
 - Functionality:  
-  - Acquire real-time data from IoT sensors on PV panels, supporting various protocols for seamless data collection and environmental condition monitoring.  
-  - Preprocess, clean, and store data in a scalable database, ensuring efficient handling, retrieval, high availability, reliability, and data backup.  
-  - Use machine learning for fault detection and root cause analysis, leveraging real-time and historical data, and incorporating anomaly detection.  
-  - Feature a user-friendly interface displaying real-time data, analysis results, visualizations, automated reports, and maintenance recommendations, supporting proactive planning.  
+  - Real-time data collection from IoT sensors with seamless protocol integration.  
+  - Scalable database for efficient data preprocessing, storage, and retrieval.  
+  - Machine learning-based fault detection and root cause analysis using real-time and historical data.  
+  - User-friendly interface with real-time data visualizations, reports, and maintenance recommendations.  
 
 - Benefits:  
   - Enhanced Fault Detection and Root Cause Analysis  
