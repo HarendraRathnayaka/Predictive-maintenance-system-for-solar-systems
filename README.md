@@ -19,7 +19,7 @@ The Predictive Maintenance System for Solar PV Systems improves reliability and 
 
 ## System Overall Diagram
 
-![Architecture Diagram](https://drive.google.com/file/d/1PXwdzWAkt6-8Lw70DUy1Wjpc2ZwUnIZ6/view?usp=sharing/System Diagram.png)
+![System Diagram](System Diagram.png)
 
 ### Key Modules and Features
 
