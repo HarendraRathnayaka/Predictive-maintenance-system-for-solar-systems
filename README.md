@@ -17,69 +17,69 @@ The Predictive Maintenance System for Solar PV Systems improves reliability and 
 - Mr. Nelum Amarasena (Co-Supervisor)
 - Mr. Udara Dissanayake (External-Supervisor)
 
-## Architectural Diagram
+## System Overall Diagram
 
-![Architecture Diagram](path/to/diagram.png)
+![Architecture Diagram](https://drive.google.com/file/d/1PXwdzWAkt6-8Lw70DUy1Wjpc2ZwUnIZ6/view?usp=sharing)
 
-### **Key Modules and Features**
+### Key Modules and Features
 
-#### 1. **Predictive Quality Control for Power Output**
-- **Description**:  
+#### 1. Predictive Quality Control for Power Output
+- Description:  
   This function analyzes historical and real-time data from solar PV panels to identify factors affecting power quality and output. By integrating advanced data acquisition systems and leveraging machine learning, it forecasts potential quality issues and predicts whether power output meets standard levels. Preventive actions are triggered to control breakdowns, enhance panel efficiency, and ensure reliability. The system supports proactive maintenance to maintain consistent power output, reduce faults, and optimize panel durability and performance.
 
-- **Functionality**:  
+- Functionality:  
   - Real-Time Data Collection  
   - Historical Data Integration  
   - Data Filtering and Preprocessing  
 
-- **Benefits**:  
+- Benefits:  
   - Improved Power Output Consistency  
   - Enhanced Panel Durability and Reliability  
 
 ---
 
-#### 2. **Root Cause Analysis for Fault Detection and Prediction**
-- **Description**:  
+#### 2. Root Cause Analysis for Fault Detection and Prediction
+- Description:  
   This system leverages real-time IoT data and historical maintenance records to predict and analyze faults in solar PV panels. It integrates environmental and operational data, using machine learning models to enhance fault detection accuracy while considering varying conditions. Advanced preprocessing ensures scalable, reliable data storage and retrieval. AI models with improved explainability offer transparent predictions, identifying root causes via anomaly detection and integrated data insights. A customizable, user-friendly interface displays real-time visualizations, analysis results, and automated reports. Continuous learning mechanisms refine fault predictions and analysis over time, enabling proactive, targeted maintenance to optimize panel performance and reduce operational downtime.
 
-- **Functionality**:  
+- Functionality:  
   - Acquire real-time data from IoT sensors on PV panels, supporting various protocols for seamless data collection and environmental condition monitoring.  
   - Preprocess, clean, and store data in a scalable database, ensuring efficient handling, retrieval, high availability, reliability, and data backup.  
   - Use machine learning for fault detection and root cause analysis, leveraging real-time and historical data, and incorporating anomaly detection.  
   - Feature a user-friendly interface displaying real-time data, analysis results, visualizations, automated reports, and maintenance recommendations, supporting proactive planning.  
 
-- **Benefits**:  
+- Benefits:  
   - Enhanced Fault Detection and Root Cause Analysis  
   - Transparent Insights and Proactive Maintenance  
 
 ---
 
-#### 3. **Condition-Based Maintenance (CBM) Implementation**
-- **Description**:  
+#### 3. Condition-Based Maintenance (CBM) Implementation
+- Description:  
   This project involves implementing a Condition-Based Maintenance (CBM) strategy for solar PV panels. It includes real-time monitoring of panel conditions such as voltage, current, and environmental factors, with historical data used to develop machine learning models for predicting the Remaining Useful Life (RUL). A dynamic maintenance scheduling system ensures maintenance is triggered based on RUL predictions. Continuous model updates and performance evaluations optimize the strategy for cost reduction and improved panel lifespan.
 
-- **Functionality**:  
+- Functionality:  
   - Real-Time Data Monitoring and Collection  
   - Predictive Analytics and Remaining Useful Life (RUL) Estimation  
   - Dynamic Maintenance Scheduling  
 
-- **Benefits**:  
-  - **Cost Efficiency**: Reduces unnecessary maintenance activities, minimizing labor and resource expenses.  
-  - **Enhanced Panel Lifespan**: Addresses issues proactively, preventing severe degradation and extending the operational life of panels.  
+- Benefits:  
+  - Cost Efficiency: Reduces unnecessary maintenance activities, minimizing labor and resource expenses.  
+  - Enhanced Panel Lifespan: Addresses issues proactively, preventing severe degradation and extending the operational life of panels.  
 
 ---
 
-#### 4. **Failures (IR) Detection in PV Strings Using Convolutional Neural Network (CNN)**
-- **Description**:  
+#### 4. Failures (IR) Detection in PV Strings Using Convolutional Neural Network (CNN)
+- Description:  
   This functionality employs a CNN-based model integrated with normal and infrared camera data captured by a Raspberry Pi fixed on PV panels. The system transmits data via Wi-Fi to a server, where machine learning algorithms analyze it to detect faults like overheating or micro-cracks. The model provides interpretable, actionable insights, offering precise fault detection and early interventions. By leveraging diverse datasets and IR imagery, it ensures enhanced efficiency, durability, and optimized performance of PV systems.
 
-- **Functionality**:  
+- Functionality:  
   - Fault Detection Using Multi-Sensor Data Integration  
   - Real-Time Fault Analysis with Actionable Insights  
   - Data Transmission and Remote Monitoring  
   - Model Accuracy Optimization with Large & Diverse Datasets  
 
-- **Benefits**:  
+- Benefits:  
   - Early Fault Detection and Prevention  
   - Enhanced Efficiency and Longevity  
 
@@ -96,6 +96,7 @@ Flutter
 
 ### Hardware Components
 - ESP32 Wi-Fi Module
+- Raspberry Pi
 - Irradiance Sensors
 - Temperature Sensor
 - Humidity Sensor
@@ -117,11 +118,14 @@ Flutter
 ### Software Requirements
 - Jupyter Notebook
 - Python 3.x
-- Node.js
+- Flask
 - Firebase account
+- Mongo DB
 - Weather API access
 
 ### Hardware Requirements
+- Infrared (IR) and Visible Cameras
+- Wi-Fi Modules
 - IoT devices and sensors
 - Wiring components
 - Battery and related parts
