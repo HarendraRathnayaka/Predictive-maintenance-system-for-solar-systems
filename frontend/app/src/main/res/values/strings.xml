@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Solar App</string>
+
+    <string-array name="components_array">
+        <item>Solar Panel</item>
+        <item>Charge Controller</item>
+        <item>Battery Output</item>
+    </string-array>
+
+    <string-array name="frequency_array">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+    </string-array>
+
+</resources>
